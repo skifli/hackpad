@@ -8,13 +8,14 @@ created_at: "2025-06-27"
 # Journal
 
 - [Journal](#journal)
-    - [27/06/2025](#27062025)
-    - [28/06/2025](#28062025)
-    - [29/06/2025](#29062025)
-      - [Mechboards](#mechboards)
-      - [PiHut](#pihut)
+  - [27/06/2025](#27062025)
+  - [28/06/2025](#28062025)
+  - [29/06/2025](#29062025)
+    - [Mechboards](#mechboards)
+    - [PiHut](#pihut)
+  - [30/06/2025](#30062025)
 
-### 27/06/2025
+## 27/06/2025
 
 I did some research on different microcontrollers I could use. I first landed on the [Elite C](https://mechboards.co.uk/products/elite-c-v4), but every single site I looked on was out of stock ;-;, so maybe not a good choice. Eventually I decided on the Raspberry Pi Pico compared to the XIAO RP2040 in the Hackpad tutorial, because its got a lotta more GPIO, and even though its bigger for me thats fine (I think, so far). I might integrate a Micro USB to USB C adapter though, I REALLY want USB C lol.
 
@@ -25,7 +26,7 @@ Found this [Github Repo](https://github.com/ncarandini/KiCad-RP-Pico/) with the 
 > [!NOTE]\
 > Total time spent: **1h**
 
-### 28/06/2025
+## 28/06/2025
 
 Going to use the SSD1306 128x64 screen:
 
@@ -51,11 +52,11 @@ Really useful video on a key matrix that helped me visualise it: https://www.you
 > [!NOTE]\
 > Total time spent: **3h**
 
-### 29/06/2025
+## 29/06/2025
 
 Finalised parts after a lot of searching (nice!nano v2 for Bluetooth communication):
 
-#### Mechboards
+### Mechboards
 * 2x [10 lowprokb Choc (V1) Ambients Nocturnal](https://mechboards.co.uk/products/lowprokb-ambients-silent-linear-nocturnal-choc-v1?variant=47588169908429).
 * 1x [10 DDC Choc (v1) PBT Blank Keycaps (White Keycaps / 1u)](https://mechboards.co.uk/products/ddc-choc-pbt-blank-keycaps?variant=47587896426701).
 * 1x [10 DDC Choc (v1) PBT Blank Keycaps (Black Keycaps / 1u)](https://mechboards.co.uk/products/ddc-choc-pbt-blank-keycaps?variant=47405364576461).
@@ -63,7 +64,7 @@ Finalised parts after a lot of searching (nice!nano v2 for Bluetooth communicati
 * 1x [50 Throughole Diodes](https://mechboards.co.uk/products/throughhole-diodes?variant=41360419193037).
 * 1x [nice! nano v2](https://mechboards.co.uk/products/nice-nano-v2?variant=40330076782797).
 
-#### PiHut
+### PiHut
 * 1x [1200mAh 3.7V LiPo Battery](https://thepihut.com/products/1200mah-3-7v-lipo-battery?variant=42143258214595).
 * 1x [Adafruit Micro-Lipo Charger for LiPoly Batt with USB Type C Jack](https://thepihut.com/products/adafruit-micro-lipo-charger-for-lipoly-batt-with-usb-type-c-jack?variant=31257709248574).
 * 1x [Breadboard-friendly SPDT Slide Switch](https://thepihut.com/products/breadboard-friendly-spdt-slide-switch?variant=27740501649).
@@ -84,3 +85,5 @@ Schematic by the end of the day - I switched a bunch of the symbols to specific 
 
 > [!NOTE]\
 > Total time spent: **6h**
+
+## 30/06/2025
