@@ -14,6 +14,8 @@ created_at: "2025-06-27"
     - [Mechboards](#mechboards)
     - [PiHut](#pihut)
   - [30/06/2025](#30062025)
+  - [01/07/2025](#01072025)
+  - [02/07/2025](#02072025)
 
 ## 27/06/2025
 
@@ -65,8 +67,8 @@ Finalised parts after a lot of searching (nice!nano v2 for Bluetooth communicati
 * 1x [nice! nano v2](https://mechboards.co.uk/products/nice-nano-v2?variant=40330076782797).
 
 ### PiHut
-* 1x [1200mAh 3.7V LiPo Battery](https://thepihut.com/products/1200mah-3-7v-lipo-battery?variant=42143258214595).
-* 1x [Adafruit Micro-Lipo Charger for LiPoly Batt with USB Type C Jack](https://thepihut.com/products/adafruit-micro-lipo-charger-for-lipoly-batt-with-usb-type-c-jack?variant=31257709248574).
+* 1x [1200mAh 3.7V LiPo Battery](https://thepihut.com/products/1200mah-3-7v-lipo-battery?variant=42143258214595). [CHANGED LATER TO WAY SMALLER ONE].
+* 1x [Adafruit Micro-Lipo Charger for LiPoly Batt with USB Type C Jack](https://thepihut.com/products/adafruit-micro-lipo-charger-for-lipoly-batt-with-usb-type-c-jack?variant=31257709248574). [REALISED LATER I DON'T NEED]
 * 1x [Breadboard-friendly SPDT Slide Switch](https://thepihut.com/products/breadboard-friendly-spdt-slide-switch?variant=27740501649).
 * 1x [20 Tactile Button switch (6mm)](https://thepihut.com/products/tactile-button-switch-6mm-x-20-pack?variant=27740416657).
 * 2x [Rotary Encoder + Extras](https://thepihut.com/products/rotary-encoder-extras?variant=27740417681).
@@ -74,16 +76,82 @@ Finalised parts after a lot of searching (nice!nano v2 for Bluetooth communicati
 Found the [PCB files](https://github.com/adafruit/Adafruit-MicroLipo-PCB/tree/master) for the Adafruit Micro-Lipo charger but they weren' for KiCad (`.brd` / `.sch`) file type. After converting it (which took a LOT of time ;-;) I realised they were actual PCB files for the board, so I had to create my own schematic of how I would interface with it, not the board itself.
 
 Custom symbol based on the schematic of the board:
-![alt text](images/29-06-2025_1.png)
+![custom symbol of the adafruit micro lipo charger](images/29-06-2025_1.png)
 
 Some silkscreen stuff got messed up but I still managed to get the general dimensions of the PCB into a footprint:
-![alt text](images/29-06-2025_2.png)
+![custom-ish pcb of the adafruit micri lipo charger](images/29-06-2025_2.png)
 
 Schematic by the end of the day - I switched a bunch of the symbols to specific ones for my parts, etc:
 
-![alt text](images/29-06-2025_3.png)
+![full schematic at the end of 29/06/2025](images/29-06-2025_3.png)
 
 > [!NOTE]\
 > Total time spent: **6h**
 
 ## 30/06/2025
+
+Created a custom symbol for the 1200mAh 3.7V LiPo Battery.
+![custom symbol for the battery](images/30-06-2025_1.png)
+
+Nevermind I found the KiCad symbol and footprint for the connectors used in the battery - https://www.snapeda.com/parts/PHR-2/JST/view-part/, so I'm going to use the symbol from there. 
+
+Made a simple footprint for the Battery, without pins as those plug into the Adafruit Micro-Lipo Charger.
+
+![custom footprint for the battery](images/30-06-2025_2.png)
+
+I've now realised the Battery stuff has no use because I should interface with the LiPo charger instead...
+
+Found the [3D model of the switch from PiHut](https://www.snapeda.com/parts/SS-12D01-G4ENS/C&K/view-part/), but it doesn't have a symbol or footprint (time to make it :sob:). About 20 minutes later - nevermind I found the symbol and footprint on [JLCPCB](https://jlcpcb.com/partdetail/DEALON-SS_12D01G4/C2998804), and through the linked EasyEDA stuff I exported it and imported and linked 'em in KiCad!
+
+![the 3d model of the switch from PiHut in KiCad linked to its footprint](images/30-06-2025_3.png)
+
+> How do you charge the nice!nano?#
+> The nice!nano has a Li-Po charger built in that uses the USB-C port to charge the Li-Po at a rate of 100mA.
+
+Oh great. WHY DID I MISS THIS :sob:. I don't need the Adafruit charger now ;-;.
+
+How to do a switch with the JST thingy:
+* https://www.youtube.com/watch?v=K1CbrNh6a1s
+* https://learn.adafruit.com/on-slash-off-switches/overview
+
+The battery will connect with the JST PH 2-Pin Cable - Male Header, this makes it longer, and this will be unpluggable and used for all batteries. This then will be cut and soldered with the switch (so I will buy the JST-PH 2-pin Jumper Cable - 100mm long for extra wire in case I make some mistakes, and also Heat Shrink Pack to insulate around the soldered joints). Then the black end goes to GND (SAME AS OTHERS), red to BAT+ which is BATTERY (top right).
+
+Schematic by the end of the day:
+![schematic at the end of 30/06/2025](images/30-06-2025_4.png)
+
+> [!NOTE]\
+> Total time spent: **5h**
+
+## 01/07/2025
+
+Swtiched to this battery https://thepihut.com/products/150mah-3-7v-lipo-battery - other one is overkill and this is smaller lol.
+
+I now realised theres a difference between high and low frequency pins, so after a bit of general schematic cleanup and reordering of GPIOs, I finished with this (now the whole key matrix is on low freq so there isn't a mix of high / low freq GPIO):
+
+![fixed schematic taking into account low / high frequency pins](images/01-07-2025_1.png)
+
+Great helping source / documentation: https://docs.splitkb.com/product-guides/aurora-series/build-guide/diodes.
+
+> [!NOTE]\
+> Total time spent: **4h**
+
+## 02/07/2025
+
+Sorry for like no journalling today lol but I did a LOT on the PCB design (except for routing) for now (will probably change the bottom buttons later).
+
+![PCB nearly finished](01-07-2025_2.png)
+
+Slight problem here:
+
+![Problem with the PCB with pads for diodes touching display pin holes](02-07-2025_1.png)
+
+Fixed here:
+
+![Fix of the above problem](02-07-2025_2.png)
+
+Switches were upside down ;-;. So the above was useless... (as when the RIGHT way up they did NOT collide).
+
+So I fixed that.
+
+> [!NOTE]\
+> Total time spent: **5h**
