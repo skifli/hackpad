@@ -139,15 +139,15 @@ Great helping source / documentation: https://docs.splitkb.com/product-guides/au
 
 Sorry for like no journalling today lol but I did a LOT on the PCB design (except for routing) for now (will probably change the bottom buttons later).
 
-![PCB nearly finished](01-07-2025_2.png)
+![PCB nearly finished](images/01-07-2025_2.png)
 
 Slight problem here:
 
-![Problem with the PCB with pads for diodes touching display pin holes](02-07-2025_1.png)
+![Problem with the PCB with pads for diodes touching display pin holes](images/02-07-2025_1.png)
 
 Fixed here:
 
-![Fix of the above problem](02-07-2025_2.png)
+![Fix of the above problem](images/02-07-2025_2.png)
 
 Switches were upside down ;-;. So the above was useless... (as when the RIGHT way up they did NOT collide).
 
