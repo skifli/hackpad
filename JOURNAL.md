@@ -240,9 +240,13 @@ Redid design AGAIN lol ;-;.
 
 I had some work stuff from the 14th - 16th, but the case is finally finished! I'm really sorry for not journalling most of this but it was so tedious and annoying that journalling was just in the back of my mind the whole time. You can see from the amount of sketches and how the version number has incremented the amount of work it has taken ;-; (I have attached proof below though from my time tracker software).
 
-![alt text](images/17-07-2025_1.png)
+![final 3d case model](images/17-07-2025_1.png)
 
-![alt text](images/17-07-2025_2.png)
+![fusion 360 time tracked since last journal in the stayfree app](images/17-07-2025_2.png)
+
+The parameters tab 😭 (its all for a good cause - flexibility):
+
+![fusion 360 parameters tab](images/17-07-2025_3.png)
 
 > [!NOTE]\
 > Total time spent: **9h**
