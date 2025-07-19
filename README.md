@@ -1,11 +1,7 @@
 # hackpad
 
 - [hackpad](#hackpad)
-  - [Journal](#journal)
 
-> [!WARNING]\
-> This project is a WIP. The documentation is NOT finished.
+![cover](assets/cover.png)
 
-## Journal
-
-For now you can read the [journal](JOURNAL.md).
+A macropad with 14 Choc v1 Ambient Nocturnal switches, 2 rotary encoders, and a small screen!

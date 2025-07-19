@@ -16,6 +16,16 @@ created_at: "2025-06-27"
   - [30/06/2025](#30062025)
   - [01/07/2025](#01072025)
   - [02/07/2025](#02072025)
+  - [03/07/2025](#03072025)
+  - [04/07/2025](#04072025)
+  - [05/07/2025](#05072025)
+  - [06/07/2025](#06072025)
+  - [08/07/2025](#08072025)
+  - [09/07/2025](#09072025)
+  - [17/07/2025](#17072025)
+
+> [!NOTE]\
+> Total time spent: **45h**
 
 ## 27/06/2025
 
@@ -155,3 +165,84 @@ So I fixed that.
 
 > [!NOTE]\
 > Total time spent: **5h**
+
+## 03/07/2025
+
+Spent most of today getting some more 3D models into KiCad and reordering some stuff like diodes etc:
+
+![pcb by end of day](images/03-07-2025_2.png)
+
+![pcb with 3d models by end of day](images/03-07-2025_1.png)
+
+> [!NOTE]\
+> Total time spent: **2h**
+
+## 04/07/2025
+
+Finished PCB layout, now just need to route it.
+
+![finished pcb layout with keycaps](images/04-07-2025_1.png)
+
+Changed the right of the schematic for the nice! nano v2 to this which makes more sense (lower rows lower down so the wiring is cleaner):
+![rewired cols and rows on the schematic](images/04-07-2025_2.png)
+
+FINALLY finished the wiring (no warnings or errors in DRC).
+
+![editor view of the wired pcb](images/04-07-2025_3.png)
+![front 3d view of the pcb](images/04-07-2025_4.png)
+![back 3d view of the pcb](images/04-07-2025_5.png)
+
+> [!NOTE]\
+> Total time spent: **5h**
+
+## 05/07/2025
+
+Imported the PCB into Autodesk Fusion 360 and started to design the case (ignore the workspace name, I use Fusion for another competition called F1 in Schools lol)
+![starting work on the case](images/05-07-2025_1.png)
+
+Made a simple square base of the case:
+![simple case base sketch](images/05-07-2025_2.png)
+
+> [!NOTE]\
+> Total time spent: **1h**
+
+## 06/07/2025
+
+Fixed some of the parameterisation of the case:
+
+![case base walls sketch](images/06-07-2025_1.png)
+
+Finish plate sketch (dw about the bottom right warning, I'm updating my drivers rn LOL):
+![plate sketch](images/06-07-2025_2.png)
+
+> [!NOTE]\
+> Total time spent: **2h**
+
+## 08/07/2025
+
+Moved the microcontroller a bit to the left on the PCB to add more space (had to redo wiring, save me pls).
+
+![updated pcb with microcontroller a tad more to the left](images/08-07-2025_1.png)
+
+> [!NOTE]\
+> Total time spent: **1h**
+
+## 09/07/2025
+
+Redid design AGAIN lol ;-;.
+
+![up updated pcb with microcontroller and display on the top now](images/09-07-2025_1.png)
+
+> [!NOTE]\
+> Total time spent: **1h**
+
+## 17/07/2025
+
+I had some work stuff from the 14th - 16th, but the case is finally finished! I'm really sorry for not journalling most of this but it was so tedious and annoying that journalling was just in the back of my mind the whole time. You can see from the amount of sketches and how the version number has incremented the amount of work it has taken ;-; (I have attached proof below though from my time tracker software).
+
+![alt text](images/17-07-2025_1.png)
+
+![alt text](images/17-07-2025_2.png)
+
+> [!NOTE]\
+> Total time spent: **9h**
