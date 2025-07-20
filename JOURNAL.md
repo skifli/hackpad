@@ -23,9 +23,10 @@ created_at: "2025-06-27"
   - [08/07/2025](#08072025)
   - [09/07/2025](#09072025)
   - [17/07/2025](#17072025)
+  - [20/07/2025](#20072025)
 
 > [!NOTE]\
-> Total time spent: **45h**
+> Total time spent: **53h**
 
 ## 27/06/2025
 
@@ -250,3 +251,16 @@ The parameters tab 😭 (its all for a good cause - flexibility):
 
 > [!NOTE]\
 > Total time spent: **9h**
+
+## 20/07/2025
+
+I JUST SPENT 5 HOURS TRYING TO GET THE DXF SKETCH OF THE PLATE EXPORTED FROM FUSION TO WORK IN KICAD... the whole time it gave the error below - malformed outline. WELL, it turns out even though IT fails to show the 3D model according to the outline, when exported with the Fabrication Toolkit, it works in JLCPCB 😭 (this was such a waste of time just for nothing).
+
+![alt text](images/20-07-2025_1.png)
+
+![alt text](images/20-07-2025_2.png)
+
+Now I'm going to start writing the README etc.
+
+> [!NOTE]\
+> Total time spent: **8h**
