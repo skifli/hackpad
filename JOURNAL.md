@@ -34,7 +34,7 @@ I did some research on different microcontrollers I could use. I first landed on
 
 Found this [Github Repo](https://github.com/ncarandini/KiCad-RP-Pico/) with the 3D footprint etc of the Raspberry Pi Pico for KiCad. Installed it and set it up.
 
-![basic board image](images/27-06-2025_1.png)
+![basic board image](assets/journal/27-06-2025_1.png)
 
 > [!NOTE]\
 > Total time spent: **1h**
@@ -56,11 +56,11 @@ Ok so after discovering https://github.com/joe-scotto/scottokeebs/tree/main/Extr
 
 Back to seed XIAO because now doing 10 keys instead of 20.
 
-![schematic image with no wires](images/28-06-2025_1.png)
+![schematic image with no wires](assets/journal/28-06-2025_1.png)
 
 Really useful video on a key matrix that helped me visualise it: https://www.youtube.com/watch?v=7LyziNdFlew. Back to Raspberry Pi Pico because the Seed XIAO RP 2040 STILL needs 1 more GPIO for me to use it ;-;.
 
-![schematic image with keyboard matrix](images/28-06-2025_2.png)
+![schematic image with keyboard matrix](assets/journal/28-06-2025_2.png)
 
 > [!NOTE]\
 > Total time spent: **3h**
@@ -87,14 +87,14 @@ Finalised parts after a lot of searching (nice!nano v2 for Bluetooth communicati
 Found the [PCB files](https://github.com/adafruit/Adafruit-MicroLipo-PCB/tree/master) for the Adafruit Micro-Lipo charger but they weren' for KiCad (`.brd` / `.sch`) file type. After converting it (which took a LOT of time ;-;) I realised they were actual PCB files for the board, so I had to create my own schematic of how I would interface with it, not the board itself.
 
 Custom symbol based on the schematic of the board:
-![custom symbol of the adafruit micro lipo charger](images/29-06-2025_1.png)
+![custom symbol of the adafruit micro lipo charger](assets/journal/29-06-2025_1.png)
 
 Some silkscreen stuff got messed up but I still managed to get the general dimensions of the PCB into a footprint:
-![custom-ish pcb of the adafruit micri lipo charger](images/29-06-2025_2.png)
+![custom-ish pcb of the adafruit micri lipo charger](assets/journal/29-06-2025_2.png)
 
 Schematic by the end of the day - I switched a bunch of the symbols to specific ones for my parts, etc:
 
-![full schematic at the end of 29/06/2025](images/29-06-2025_3.png)
+![full schematic at the end of 29/06/2025](assets/journal/29-06-2025_3.png)
 
 > [!NOTE]\
 > Total time spent: **6h**
@@ -102,19 +102,19 @@ Schematic by the end of the day - I switched a bunch of the symbols to specific 
 ## 30/06/2025
 
 Created a custom symbol for the 1200mAh 3.7V LiPo Battery.
-![custom symbol for the battery](images/30-06-2025_1.png)
+![custom symbol for the battery](assets/journal/30-06-2025_1.png)
 
 Nevermind I found the KiCad symbol and footprint for the connectors used in the battery - https://www.snapeda.com/parts/PHR-2/JST/view-part/, so I'm going to use the symbol from there. 
 
 Made a simple footprint for the Battery, without pins as those plug into the Adafruit Micro-Lipo Charger.
 
-![custom footprint for the battery](images/30-06-2025_2.png)
+![custom footprint for the battery](assets/journal/30-06-2025_2.png)
 
 I've now realised the Battery stuff has no use because I should interface with the LiPo charger instead...
 
 Found the [3D model of the switch from PiHut](https://www.snapeda.com/parts/SS-12D01-G4ENS/C&K/view-part/), but it doesn't have a symbol or footprint (time to make it :sob:). About 20 minutes later - nevermind I found the symbol and footprint on [JLCPCB](https://jlcpcb.com/partdetail/DEALON-SS_12D01G4/C2998804), and through the linked EasyEDA stuff I exported it and imported and linked 'em in KiCad!
 
-![the 3d model of the switch from PiHut in KiCad linked to its footprint](images/30-06-2025_3.png)
+![the 3d model of the switch from PiHut in KiCad linked to its footprint](assets/journal/30-06-2025_3.png)
 
 > How do you charge the nice!nano?#
 > The nice!nano has a Li-Po charger built in that uses the USB-C port to charge the Li-Po at a rate of 100mA.
@@ -128,7 +128,7 @@ How to do a switch with the JST thingy:
 The battery will connect with the JST PH 2-Pin Cable - Male Header, this makes it longer, and this will be unpluggable and used for all batteries. This then will be cut and soldered with the switch (so I will buy the JST-PH 2-pin Jumper Cable - 100mm long for extra wire in case I make some mistakes, and also Heat Shrink Pack to insulate around the soldered joints). Then the black end goes to GND (SAME AS OTHERS), red to BAT+ which is BATTERY (top right).
 
 Schematic by the end of the day:
-![schematic at the end of 30/06/2025](images/30-06-2025_4.png)
+![schematic at the end of 30/06/2025](assets/journal/30-06-2025_4.png)
 
 > [!NOTE]\
 > Total time spent: **5h**
@@ -139,7 +139,7 @@ Swtiched to this battery https://thepihut.com/products/150mah-3-7v-lipo-battery 
 
 I now realised theres a difference between high and low frequency pins, so after a bit of general schematic cleanup and reordering of GPIOs, I finished with this (now the whole key matrix is on low freq so there isn't a mix of high / low freq GPIO):
 
-![fixed schematic taking into account low / high frequency pins](images/01-07-2025_1.png)
+![fixed schematic taking into account low / high frequency pins](assets/journal/01-07-2025_1.png)
 
 Great helping source / documentation: https://docs.splitkb.com/product-guides/aurora-series/build-guide/diodes.
 
@@ -150,15 +150,15 @@ Great helping source / documentation: https://docs.splitkb.com/product-guides/au
 
 Sorry for like no journalling today lol but I did a LOT on the PCB design (except for routing) for now (will probably change the bottom buttons later).
 
-![PCB nearly finished](images/01-07-2025_2.png)
+![PCB nearly finished](assets/journal/01-07-2025_2.png)
 
 Slight problem here:
 
-![Problem with the PCB with pads for diodes touching display pin holes](images/02-07-2025_1.png)
+![Problem with the PCB with pads for diodes touching display pin holes](assets/journal/02-07-2025_1.png)
 
 Fixed here:
 
-![Fix of the above problem](images/02-07-2025_2.png)
+![Fix of the above problem](assets/journal/02-07-2025_2.png)
 
 Switches were upside down ;-;. So the above was useless... (as when the RIGHT way up they did NOT collide).
 
@@ -171,9 +171,9 @@ So I fixed that.
 
 Spent most of today getting some more 3D models into KiCad and reordering some stuff like diodes etc:
 
-![pcb by end of day](images/03-07-2025_2.png)
+![pcb by end of day](assets/journal/03-07-2025_2.png)
 
-![pcb with 3d models by end of day](images/03-07-2025_1.png)
+![pcb with 3d models by end of day](assets/journal/03-07-2025_1.png)
 
 > [!NOTE]\
 > Total time spent: **2h**
@@ -182,16 +182,16 @@ Spent most of today getting some more 3D models into KiCad and reordering some s
 
 Finished PCB layout, now just need to route it.
 
-![finished pcb layout with keycaps](images/04-07-2025_1.png)
+![finished pcb layout with keycaps](assets/journal/04-07-2025_1.png)
 
 Changed the right of the schematic for the nice! nano v2 to this which makes more sense (lower rows lower down so the wiring is cleaner):
-![rewired cols and rows on the schematic](images/04-07-2025_2.png)
+![rewired cols and rows on the schematic](assets/journal/04-07-2025_2.png)
 
 FINALLY finished the wiring (no warnings or errors in DRC).
 
-![editor view of the wired pcb](images/04-07-2025_3.png)
-![front 3d view of the pcb](images/04-07-2025_4.png)
-![back 3d view of the pcb](images/04-07-2025_5.png)
+![editor view of the wired pcb](assets/journal/04-07-2025_3.png)
+![front 3d view of the pcb](assets/journal/04-07-2025_4.png)
+![back 3d view of the pcb](assets/journal/04-07-2025_5.png)
 
 > [!NOTE]\
 > Total time spent: **5h**
@@ -199,10 +199,10 @@ FINALLY finished the wiring (no warnings or errors in DRC).
 ## 05/07/2025
 
 Imported the PCB into Autodesk Fusion 360 and started to design the case (ignore the workspace name, I use Fusion for another competition called F1 in Schools lol)
-![starting work on the case](images/05-07-2025_1.png)
+![starting work on the case](assets/journal/05-07-2025_1.png)
 
 Made a simple square base of the case:
-![simple case base sketch](images/05-07-2025_2.png)
+![simple case base sketch](assets/journal/05-07-2025_2.png)
 
 > [!NOTE]\
 > Total time spent: **1h**
@@ -211,10 +211,10 @@ Made a simple square base of the case:
 
 Fixed some of the parameterisation of the case:
 
-![case base walls sketch](images/06-07-2025_1.png)
+![case base walls sketch](assets/journal/06-07-2025_1.png)
 
 Finish plate sketch (dw about the bottom right warning, I'm updating my drivers rn LOL):
-![plate sketch](images/06-07-2025_2.png)
+![plate sketch](assets/journal/06-07-2025_2.png)
 
 > [!NOTE]\
 > Total time spent: **2h**
@@ -223,7 +223,7 @@ Finish plate sketch (dw about the bottom right warning, I'm updating my drivers 
 
 Moved the microcontroller a bit to the left on the PCB to add more space (had to redo wiring, save me pls).
 
-![updated pcb with microcontroller a tad more to the left](images/08-07-2025_1.png)
+![updated pcb with microcontroller a tad more to the left](assets/journal/08-07-2025_1.png)
 
 > [!NOTE]\
 > Total time spent: **1h**
@@ -232,7 +232,7 @@ Moved the microcontroller a bit to the left on the PCB to add more space (had to
 
 Redid design AGAIN lol ;-;.
 
-![up updated pcb with microcontroller and display on the top now](images/09-07-2025_1.png)
+![up updated pcb with microcontroller and display on the top now](assets/journal/09-07-2025_1.png)
 
 > [!NOTE]\
 > Total time spent: **1h**
@@ -241,13 +241,13 @@ Redid design AGAIN lol ;-;.
 
 I had some work stuff from the 14th - 16th, but the case is finally finished! I'm really sorry for not journalling most of this but it was so tedious and annoying that journalling was just in the back of my mind the whole time. You can see from the amount of sketches and how the version number has incremented the amount of work it has taken ;-; (I have attached proof below though from my time tracker software).
 
-![final 3d case model](images/17-07-2025_1.png)
+![final 3d case model](assets/journal/17-07-2025_1.png)
 
-![fusion 360 time tracked since last journal in the stayfree app](images/17-07-2025_2.png)
+![fusion 360 time tracked since last journal in the stayfree app](assets/journal/17-07-2025_2.png)
 
 The parameters tab 😭 (its all for a good cause - flexibility):
 
-![fusion 360 parameters tab](images/17-07-2025_3.png)
+![fusion 360 parameters tab](assets/journal/17-07-2025_3.png)
 
 > [!NOTE]\
 > Total time spent: **9h**
@@ -256,9 +256,9 @@ The parameters tab 😭 (its all for a good cause - flexibility):
 
 I JUST SPENT 5 HOURS TRYING TO GET THE DXF SKETCH OF THE PLATE EXPORTED FROM FUSION TO WORK IN KICAD... the whole time it gave the error below - malformed outline. WELL, it turns out even though IT fails to show the 3D model according to the outline, when exported with the Fabrication Toolkit, it works in JLCPCB 😭 (this was such a waste of time just for nothing).
 
-![alt text](images/20-07-2025_1.png)
+![alt text](assets/journal/20-07-2025_1.png)
 
-![alt text](images/20-07-2025_2.png)
+![alt text](assets/journal/20-07-2025_2.png)
 
 Now I'm going to start writing the README etc.
 
