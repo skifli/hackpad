@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"D1, D10, D11, D12, D13, D14, D15, D16, D2, D3, D4, D5, D6, D7, D8, D9",D_SOD-123,16,Diode,
+DISPLAY1,nice_view,1,nice!view,
+"MT1, MT2",XDCR_PEC11R-4215F-S0024,2,PEC11R-4215F-S0024,
+"SW10, SW11, SW12, SW13, SW14, SW15, SW16, SW2, SW3, SW5, SW6, SW7, SW8, SW9",Hotswap_Choc_V1_1.00u,14,Switch,
+U1,Nice_Nano_V2,1,Nice_Nano_V2,
