@@ -15,13 +15,17 @@
 | -------------------------------- | ------------------------------------------------ |
 | ![cover photo](assets/cover.png) | ![exploded view photo](assets/exploded-view.jpg) |
 
+
+> [!IMPORTANT]\
+> Since submission, the BOM price has decreased to $122 from above $150 (check [#bom](#bom) for more information).
+
 A fully wireless macropad with 14 Choc v1 Ambient Nocturnal switches, 2 rotary encoders (with a push-button each), and a small screen! The case is in two sections - a top and bottom, and joins together via 8 magnets, half in each side of the case (you can see the magnet holes in the various views).
 
 I made this project because when programming / doing CAD design there are so many different shortcuts I use to make sketches, change orbit types, etc, and these require a lot of clicks. These all could be streamlined a lot more with the use of a macropad - which is why I made this one. I decided to also add a screen so I could easily see which profile I'm on and switch (likely by rotating a rotary encoder while it is held down), and the two rotary encoders to easily control multiple audio streams (mainly YouTube vs. Spotify).
 
 ## Project Structure
 
-> [!TIP]\
+> [!IMPORTANT]\
 > Only includes files / folders relevant to admin that would benefit from explanation.
 
 ```
@@ -107,7 +111,7 @@ The [journal](JOURNAL.md) contains each day's work, logged, with the aid of imag
 | **TOTAL**                               |                                 |                                                                                                |          | **£90.40** |                          |            |                                                                                                                                                                                                                                                                      |
 </details>
 
-> [!NOTE]\
+> [!IMPORTANT]\
 > Please disregard a lot of what is in the below text. After someone in the Slack (@Toby), introduced me to the world of AliExpress, I completely redid the BOM. It is now $122 (yes that is USD lol), so way under the limit. Thanks a lot dude :).
 
 The BOM can be found in [`/bom.csv`](bom.csv). Since this is my first ever hardware project, I decided to go for some products that were easier to find footprints / symbols in KiCad for. With hindsight, spending the amount of money I now have to on a nice! nano v2 or nice!view (which I landed on because I chose the nice! nano v2) isn't really necessary. So, in future projects I'll choose other, cheaper components - but for this one I've already designed the PCB etc, and was very new to this whole world of design, and so decided to go with components that I was more confident with.
