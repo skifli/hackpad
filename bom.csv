@@ -1,24 +1,25 @@
-Component,Description,Notes,Quantity,Provider,Price,Shipping
-Kailh Choc Hotswap Sockets,V1 (Pack of 10),,2,Mechboards,£6.00,£5.28
-JST PH 2-Pin Cable - Male Header,,I am going to wire the battery to the Slide Switch and then to the nice!nano v2,1,Mechboards,£2.00,
-nice!nano v2,,,1,Mechboards,£27.50,
-nice!view,,,1,Mechboards,£16,
-DDC Choc (v1) PBT Blank Keycaps - White,White Keycaps / 1u (Pack of 10),,1,Mechboards,£4.50,
-DDC Choc (v1) PBT Blank Keycaps - Black,Black Keycaps / 1u (Pack of 10),,1,Mechboards,£4.50,
-lowprokb Choc (V1) Ambients Nocturnal,(Pack of 10),,2,Mechboards,£19.00,
-KBDNEWS Promo Code,,,,Mechboards,-5%,
-Total (Mechboards),,,,,£80.81,Included on the left
-JST PH 2-Pin Cable - Female Connector 150mm,,I am going to wire the battery to the Slide Switch and then to the nice!nano v2,1,The Pi Hut,£0.80,£7.80
-Heat Shrink Pack,,"Same as above, just to cover the joints for safety",1,The Pi Hut,£4.30,
-150mAh 3.7V LiPo Battery,,,1,The Pi Hut,£4.50,
-Breadboard-friendly SPDT Slide Switch,,,1,The Pi Hut,£0.80,
-1N4148 SMT SOD-123 Diodes,(Pack of 100),,1,The Pi Hut,£4.80,
-Rotary Encoder + Extras,(Pack of 2),It says extras but there's no mention of anything else on the product page LOL ;-;,2,The Pi Hut,£8.60,
-Rubber Bumper Feet,(Pack of 4),4 for the case bottom and 4 for the PCB bottom for a set height,2,The Pi Hut,£1.80,
-Total (The Pi Hut),,,,,£33.40,Included on the left
-Comus M1219-3 Neodynium Disc Magnet,,To join the two case halves,8,Rapid Electronics,£3.48,£3.30
-Total (Rapid Electronics),,,,,£6.58,Included on the left
-Custom PCB,PCB (JLCPCB) (x1),,1,JLCPCB,£1.49,£19.47
-Custom Plate,PCB (JLCPCB) (x1),Only one special offer is valid in shopping cart :(.,1,JLCPCB,£2.97,
-Total (JLCPCB),,,,,£23.93,Included on the left
-TOTAL,,,,,£144.72,
+Component,Description,Notes,Quantity,Price,Shipping,Provider,Link
+Kailh Choc Hotswap Sockets,V1 (Pack of 10),,2,£6.00,£1.81,Mechboards,https://mechboards.co.uk/products/kailh-choc-hotswap-sockets?variant=40427263754445
+DDC Choc (v1) PBT Blank Keycaps - White,White Keycaps / 1u (Pack of 10),,1,£4.50,,,https://mechboards.co.uk/products/ddc-choc-pbt-blank-keycaps?variant=47587896426701
+DDC Choc (v1) PBT Blank Keycaps - Black,Black Keycaps / 1u (Pack of 10),,1,£4.50,,,https://mechboards.co.uk/products/ddc-choc-pbt-blank-keycaps?variant=47405364576461
+lowprokb Choc (V1) Ambients Nocturnal,(Pack of 10),,2,£19.00,,,https://mechboards.co.uk/products/lowprokb-ambients-silent-linear-nocturnal-choc-v1?variant=47588169908429
+KBDNEWS Promo Code,,,,-5%,,,
+Total (Mechboards),,,,£34.11,Included on the left,,
+,,,,,,,
+nice!nano v2,,Compatible board,1,£2.99,£2.99 (Base),AliExpress,https://www.aliexpress.com/item/1005006035267231.html?spm=a2g0o.cart.0.0.67c738da1ajl1F&mp=1&pdp_npi=5%40dis%21GBP%21GBP%202.99%21GBP%202.99%21%21GBP%202.99%21%21%21%40211b441e17531052016778999e3b33%2112000035421753155%21ct%21UK%216417491436%21%211%210
+nice!view,,Compatible screen (without headers),1,£12.69,,,https://www.aliexpress.com/item/1005008115497843.html?spm=a2g0o.cart.0.0.67c738da1ajl1F&mp=1&pdp_npi=5%40dis%21GBP%21GBP%2012.69%21GBP%2012.69%21%21GBP%2012.69%21%21%21%40211b441e17531052016778999e3b33%2112000045912688974%21ct%21UK%216417491436%21%211%210
+Header Pins,1x5 Pins (50 PCS),Headers for the above screen since it doesn't come with them,1,£1.15,,,https://www.aliexpress.com/item/4000988113226.html?spm=a2g0o.cart.0.0.67c738da1ajl1F&mp=1&pdp_npi=5%40dis%21GBP%21GBP%201.15%21GBP%201.15%21%21GBP%201.15%21%21%21%40211b441e17531052016778999e3b33%2110000013202368851%21ct%21UK%216417491436%21%211%210
+Tiny Disc Magnet,4x3mm (100 PCS),To join the top and bottom of the case,1,£4.86,£2.96,,https://www.aliexpress.com/item/1005009177139622.html?spm=a2g0o.cart.0.0.67c738da1ajl1F&mp=1&pdp_npi=5%40dis%21GBP%21GBP%204.86%21GBP%201.70%21%21GBP%201.70%21%21%21%40211b441e17531052016778999e3b33%2112000048205133030%21ct%21UK%216417491436%21%211%210
+SMT SOD-123 Diodes,100 PCS,For the switches,1,£1.11,,,https://www.aliexpress.com/item/4000685043735.html?spm=a2g0o.cart.0.0.67c738da1ajl1F&mp=1&pdp_npi=5%40dis%21GBP%21GBP%201.11%21GBP%201.11%21%21GBP%201.11%21%21%21%40211b441e17531052016778999e3b33%2112000037997014577%21ct%21UK%216417491436%21%211%210
+Heat Shrink Tubes,,Because I'm going to some wires to join the switch inbetween the nice! nano v2 and the battery,1,£1.35,,,https://www.aliexpress.com/item/1005008146302901.html?spm=a2g0o.cart.0.0.67c738da1ajl1F&mp=1&pdp_npi=5%40dis%21GBP%21GBP%201.35%21GBP%201.35%21%21GBP%201.35%21%21%21%40211b441e17531052016778999e3b33%2112000043985559291%21ct%21UK%216417491436%21%211%210
+JST PH Plug Connector with Wire,MALE 2P 100mm (5 PCS),Same as above,1,£0.34,£1.94,,https://www.aliexpress.com/item/1005008864177105.html?spm=a2g0o.cart.0.0.67c738da1ajl1F&mp=1&pdp_npi=5%40dis%21GBP%21GBP%200.34%21GBP%200.32%21%21GBP%200.32%21%21%21%40211b441e17531052016778999e3b33%2112000047004685294%21ct%21UK%216417491436%21%211%210&pdp_ext_f=%7B%22cart2PdpParams%22%3A%7B%22pdpBusinessMode%22%3A%22retail%22%7D%7D
+JST PH Plug Connector with Wire,FEMALE 2P 100mm (5 PCS),Same as above,1,£0.49,£1.94,,https://www.aliexpress.com/item/1005008864177105.html?spm=a2g0o.cart.0.0.67c738da1ajl1F&mp=1&pdp_npi=5%40dis%21GBP%21GBP%200.49%21GBP%200.47%21%21GBP%200.47%21%21%21%40211b441e17531052016778999e3b33%2112000047004685342%21ct%21UK%216417491436%21%211%210&pdp_ext_f=%7B%22cart2PdpParams%22%3A%7B%22pdpBusinessMode%22%3A%22retail%22%7D%7D
+Bumper Feet,5mm x 2mm (100PCS0,For the bottom of the case and the PCB,1,£1.59,,,https://www.aliexpress.com/item/1005004068119765.html?spm=a2g0o.cart.0.0.67c738da1ajl1F&mp=1&pdp_npi=5%40dis%21GBP%21GBP%201.58%21GBP%200.76%21%21GBP%200.76%21%21%21%40211b441e17531052016778999e3b33%2112000027931007348%21ct%21UK%216417491436%21%211%210
+Total (AliExpress),,,,£34.59,Included on the left,,
+,,,,,,,
+150mAh 3.7V LiPo Battery,,To power the system,1,£4.50,£7.80,PiHut,https://thepihut.com/products/150mah-3-7v-lipo-battery?variant=42388690993347
+Breadboard-friendly SPDT Slide Switch,,To power on / off the system,1,£0.80,,,https://thepihut.com/products/breadboard-friendly-spdt-slide-switch?variant=27740501649
+Rotary Encoder + Extras,,,2,£8.60,,,https://thepihut.com/products/rotary-encoder-extras?variant=27740417681
+Total (PiHut),,,,£21.70,Included on the left,,
+,,,,,,,
+TOTAL,,,,£90.4,,,
