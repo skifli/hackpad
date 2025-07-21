@@ -24,9 +24,10 @@ created_at: "2025-06-27"
   - [09/07/2025](#09072025)
   - [17/07/2025](#17072025)
   - [20/07/2025](#20072025)
+  - [21/07/2025](#21072025)
 
 > [!NOTE]\
-> Total time spent: **54h**
+> Total time spent: **60h**
 
 ## 27/06/2025
 
@@ -264,3 +265,10 @@ Now I'm going to start writing the README etc.
 
 > [!NOTE]\
 > Total time spent: **9h**
+
+## 21/07/2025
+
+Redid the BOM to make it under the $150 limit, had to change some case parameters for that though (thanks to parameterisation it was easy).
+
+> [!NOTE]\
+> Total time spent: **6h**
