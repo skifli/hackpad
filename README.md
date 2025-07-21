@@ -80,7 +80,7 @@ The [journal](JOURNAL.md) contains each day's work, logged, with the aid of imag
 > [!NOTE]\
 > I found the promo code **KBDNEWS** for Mechboards (a UK-based merchant) 5% off so I included that in the BOM as well to explain the decrease in total price.
 
-<details open>
+<details closed>
 <summary>BOM in table format</summary>
 
 | Component                                   | Description                     | Notes                                                                              | Quantity | Provider          | Price       | Shipping                 |
