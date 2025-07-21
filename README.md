@@ -45,7 +45,7 @@ I made this project because when programming / doing CAD design there are so man
 The [journal](Journal.md) contains each day's work, logged, with the aid of images. Total time is at the top and each day has its time logged. There is also a Table of Contents for easy navigation :).
 
 > [!NOTE]\
-> Total time spent: **53h**
+> Total time spent: **54h**
 
 ## PCB
 
@@ -81,7 +81,7 @@ The [journal](Journal.md) contains each day's work, logged, with the aid of imag
 
 The BOM can be found in [`/bom.csv`](bom.csv). Since this is my first ever hardware project, I decided to go for some products that were easier to find footprints / symbols in KiCad for. With hindsight, spending the amount of money I now have to on a nice! nano v2 or nice!view (which I landed on because I chose the nice! nano v2) isn't really necessary. So, in future projects I'll choose other, cheaper components - but for this one I've already designed the PCB etc, and was very new to this whole world of design, and so decided to go with components that I was more confident with.
 
-The Seeed Studio XIAO RP2040 didn't have enough GPIO anyway since I needed a 4x4 key matrix (so 8 pins), 4 other GPIO for the 2 rotary encoders, and the screen pins. Now, unfortunately this does mean the price is way over $150. This is in part because I also forgot Hackclub operates in USD and so was sure I would be in price range until 2 days ago, at which point I had a heart attack 😭. I'll try to cover the rest myself... not really sure how that'll go because I need to buy solder and other stuff since this is my first hardware project (which is already a lot of money), but we'll see...
+The Seeed Studio XIAO RP2040 didn't have enough GPIO anyway since I needed a 4x4 key matrix (so 8 pins), 4 other GPIO for the 2 rotary encoders, and the screen pins. Now, unfortunately this does mean the price is way over $150. This is in part because I also forgot Hackclub operates in USD and so was sure I would be in price range until 2 days ago, at which point I had a heart attack 😭. I'll try to cover the rest myself... not really sure how that'll go because I need to buy solder and other stuff since this is my first hardware project (which is already a lot of money), but we'll see... I'm not sure if Hackclub has a thing with JLCPCB for cheaper PCBs but if so that would reduce the total cost, although it might still be just over $150.
 
 ---
 <sub>Thanks to [Hackclub](https://hackclub.com) for such an amazing opportunity - this project was made by [@skifli](https://github.com/skifli) with 🩷, under the [MIT License](LICENSE).</sub>

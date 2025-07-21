@@ -26,7 +26,7 @@ created_at: "2025-06-27"
   - [20/07/2025](#20072025)
 
 > [!NOTE]\
-> Total time spent: **53h**
+> Total time spent: **54h**
 
 ## 27/06/2025
 
@@ -263,4 +263,4 @@ I JUST SPENT 5 HOURS TRYING TO GET THE DXF SKETCH OF THE PLATE EXPORTED FROM FUS
 Now I'm going to start writing the README etc.
 
 > [!NOTE]\
-> Total time spent: **8h**
+> Total time spent: **9h**
