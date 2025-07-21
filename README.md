@@ -109,7 +109,7 @@ The [journal](JOURNAL.md) contains each day's work, logged, with the aid of imag
 | SPDT Slide Switch                       | Breadboard-friendly            | On/off switch      | 1   | £0.80      | –          | PiHut      | [Link](https://thepihut.com/products/breadboard-friendly-spdt-slide-switch?variant=27740501649)                    |
 | Rotary Encoder                          | + Extras                       | Input control      | 2   | £8.60      | –          | PiHut      | [Link](https://thepihut.com/products/rotary-encoder-extras?variant=27740417681)                                    |
 | **Total (PiHut)**                       |                                |                    |     | **£21.70** | *Included* |            |                                                                                                                    |
-| **TOTAL**                               |                                |                    |     | **90.40**  | *Included* |            |                                                                                                                    |
+| **TOTAL**                               |                                |                    |     | **£90.40** | *Included* |            |                                                                                                                    |
 
 
 </details>
