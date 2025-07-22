@@ -1,0 +1,40 @@
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                &kp A &kp B &kp C
+                &kp D &kp E &kp F
+            >;
+        };
+    };
+
+    behaviors {
+        encoder1_ccw: encoder1_ccw {
+            compatible = "zmk,behavior-momentary";
+            label = "Encoder 1 CCW";
+            bindings = <&kp LEFT>;
+        };
+
+        encoder1_cw: encoder1_cw {
+            compatible = "zmk,behavior-momentary";
+            label = "Encoder 1 CW";
+            bindings = <&kp RIGHT>;
+        };
+
+        encoder2_ccw: encoder2_ccw {
+            compatible = "zmk,behavior-momentary";
+            label = "Encoder 2 CCW";
+            bindings = <&kp VOLUME_DOWN>;
+        };
+
+        encoder2_cw: encoder2_cw {
+            compatible = "zmk,behavior-momentary";
+            label = "Encoder 2 CW";
+            bindings = <&kp VOLUME_UP>;
+        };
+    };
+
+    combos {};
+};

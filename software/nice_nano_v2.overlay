@@ -1,0 +1,54 @@
+/ {
+    chosen {
+        zmk,encoder-events = &encoder1 &encoder2;
+    };
+
+    zephyr,user {
+        encoder1: encoder_1 {
+            compatible = "zmk,rotary-encoder";
+            label = "Encoder 1";
+            a-pin = <10>; // D10
+            b-pin = <16>; // D16
+            steps = <4>;
+        };
+
+        encoder2: encoder_2 {
+            compatible = "zmk,rotary-encoder";
+            label = "Encoder 2";
+            a-pin = <14>; // D14
+            b-pin = <15>; // D15
+            steps = <4>;
+        };
+    };
+};
+
+&spi1 {
+    compatible = "nordic,nrf-spi";
+    status = "okay";
+    sck-pin = <1>;   // D1
+    mosi-pin = <0>;  // D0
+    miso-pin = <255>; // Not used
+    cs-gpios = <&gpio0 18 GPIO_ACTIVE_LOW>; // CS → D18
+
+    display@0 {
+        compatible = "solomon,ssd1306fb";  // Tis the display driver
+        reg = <0>;
+        label = "SSD1306";
+        spi-max-frequency = <10000000>;
+        width = <128>;
+        height = <64>;
+        segment-offset = <0>;
+        page-offset = <0>;
+        display-offset = <0>;
+        multiplex-ratio = <63>;
+        reset-gpios = <&gpio0 22 GPIO_ACTIVE_LOW>; // Only if using reset, which I may not...
+    };
+};
+
+
+&kscan0 {
+    row-gpios = <&gpio0 2 GPIO_ACTIVE_LOW>, <&gpio0 3 GPIO_ACTIVE_LOW>;
+    col-gpios = <&gpio0 4 GPIO_ACTIVE_LOW>, <&gpio0 5 GPIO_ACTIVE_LOW>,
+                <&gpio0 6 GPIO_ACTIVE_LOW>, <&gpio0 7 GPIO_ACTIVE_LOW>;
+    // Double check but I'm pretty sure this is my actual matrix layout
+};

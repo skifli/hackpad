@@ -125,7 +125,9 @@ The Seeed Studio XIAO RP2040 didn't have enough GPIO anyway since I needed a 4x4
 
 ## Software
 
-Will be added once the physical components are received and assembled, as I don't want to start writing code and then find out it doesn't work because I accidentally used libraries for different components, or something similar to that.
+Will be _mostly_ added once the physical components are received and assembled, as I don't want to start writing code and then find out it doesn't work because I accidentally used libraries for different components, or something similar to that.
+
+I have added some stuff in the [`/software`](software) directory though.
 
 ---
 <sub>Thanks to [Hackclub](https://hackclub.com) for such an amazing opportunity - this project was made by [@skifli](https://github.com/skifli) with 🩷, under the [MIT License](LICENSE).</sub>
