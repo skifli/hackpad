@@ -15,14 +15,13 @@ Heat Shrink Tubes,,Because I'm going to some wires to join the switch inbetween 
 JST PH Plug Connector with Wire,MALE 2P 100mm (5 PCS),Same as above,1,£0.34,£1.94,,https://www.aliexpress.com/item/1005008864177105.html?spm=a2g0o.cart.0.0.67c738da1ajl1F&mp=1&pdp_npi=5%40dis%21GBP%21GBP%200.34%21GBP%200.32%21%21GBP%200.32%21%21%21%40211b441e17531052016778999e3b33%2112000047004685294%21ct%21UK%216417491436%21%211%210&pdp_ext_f=%7B%22cart2PdpParams%22%3A%7B%22pdpBusinessMode%22%3A%22retail%22%7D%7D
 JST PH Plug Connector with Wire,FEMALE 2P 100mm (5 PCS),Same as above,1,£0.49,£1.94,,https://www.aliexpress.com/item/1005008864177105.html?spm=a2g0o.cart.0.0.67c738da1ajl1F&mp=1&pdp_npi=5%40dis%21GBP%21GBP%200.49%21GBP%200.47%21%21GBP%200.47%21%21%21%40211b441e17531052016778999e3b33%2112000047004685342%21ct%21UK%216417491436%21%211%210&pdp_ext_f=%7B%22cart2PdpParams%22%3A%7B%22pdpBusinessMode%22%3A%22retail%22%7D%7D
 Bumper Feet,5mm x 2mm (100PCS0,For the bottom of the case and the PCB,1,£1.59,,,https://www.aliexpress.com/item/1005004068119765.html?spm=a2g0o.cart.0.0.67c738da1ajl1F&mp=1&pdp_npi=5%40dis%21GBP%21GBP%201.58%21GBP%200.76%21%21GBP%200.76%21%21%21%40211b441e17531052016778999e3b33%2112000027931007348%21ct%21UK%216417491436%21%211%210
-Total (AliExpress),,,,£34.59,Included on the left,,
-,,,,,,,
-150mAh 3.7V LiPo Battery,,To power the system,1,£4.50,£7.80,PiHut,https://thepihut.com/products/150mah-3-7v-lipo-battery?variant=42388690993347
-Breadboard-friendly SPDT Slide Switch,,To power on / off the system,1,£0.80,,,https://thepihut.com/products/breadboard-friendly-spdt-slide-switch?variant=27740501649
-Rotary Encoder + Extras,,,2,£8.60,,,https://thepihut.com/products/rotary-encoder-extras?variant=27740417681
-Total (PiHut),,,,£21.70,Included on the left,,
+Toggle Switch,"K031b004-G3
+",To power on / off the system,1,£1.94,,,https://www.aliexpress.com/item/1005009306874094.html?mp=1&pdp_npi=5@dis!GBP!GBP%201.94!GBP%201.32!!GBP%201.32!!!@211b815c17533501326091979e985a!12000048687863670!ct!UK!6417491436!!1!0
+3.7V 150mAh,1 battery,To power the system,1,£4.74,N/A,,"https://www.aliexpress.com/item/1005004084377638.html?gps-id=pcDetailBottomMoreOtherSeller&scm=1007.40050.354490.0&scm_id=1007.40050.354490.0&scm-url=1007.40050.354490.0&pvid=de192e07-09ee-4db1-9507-9656604f9f9b&_t=gps-id:pcDetailBottomMoreOtherSeller,scm-url:1007.40050.354490.0,pvid:de192e07-09ee-4db1-9507-9656604f9f9b,tpp_buckets:668%232846%238108%231977&pdp_ext_f=%7B%22order%22:%223%22,%22eval%22:%221%22,%22sceneId%22:%2230050%22%7D&pdp_npi=4@dis!GBP!4.74!3.75!!!6.25!4.94!@211b815c17533503136386505e985a!12000027983952391!rec!UK!6417491436!ABX&utparam-url=scene:pcDetailBottomMoreOtherSeller%7Cquery_from:"
+Rotary Encoder w/ Push Button,5 PCS,,1,£1.08,,,https://www.aliexpress.com/item/1005005983134515.html?spm=a2g0o.cart.0.0.3ce438daf8CnfA&mp=1&pdp_npi=5%40dis%21GBP%21GBP%201.08%21GBP%201.08%21%21GBP%201.08%21%21%21%40211b815c17533506612355794e985a%2112000035172713582%21ct%21UK%216417491436%21%211%210&pdp_ext_f=%7B%22cart2PdpParams%22%3A%7B%22pdpBusinessMode%22%3A%22retail%22%7D%7D
+Total (AliExpress),,,,£42.35,Included on the left,,
 ,,,,,,,
 Plate & PCB,,,,£5.94,£6.11,JLCPCB,N/A
-,,,,£12.05,Included on the left,,
+Total (JLCPCB),,,,£12.05,Included on the left,,
 ,,,,,,,
-TOTAL,,,,£102.09,Included on the left,,
+TOTAL,,,,£88.51,Included on the left,,
